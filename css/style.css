@@ -1,0 +1,90 @@
+body,html{
+    background-color:white;
+    color:black;
+    height: 100%;
+}
+body{
+    margin:0px
+}
+
+
+/* navigation menu styling */
+nav{
+    background-color:lightgrey ;
+    width: 15%;
+    height: 100%;
+    text-align: left;
+    float: left;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-align: left;
+}
+nav ul li {
+    display: block;
+    padding:10px;
+}
+nav p{
+    border-bottom: 2px solid black;
+    padding: 10px;
+}
+
+
+/* Styling for buttons sections */
+.upperbttn{
+    float:right;
+    width: 85%;
+}
+button{
+    width:100px;
+    padding:10px;
+    margin-top: 20px;
+    border-radius:8px;
+    text-align: left;
+}
+#notes{
+    margin-left: 5%;
+    float:left;
+    background-color:#f4511e;
+}
+#theme{
+    margin-right:5%;
+    float: right;
+    background-color: rgb(82, 79, 79);
+}
+
+
+/*Styling for textarea*/
+#notearea{
+    float: right;
+    width: 85%;
+    height: 90%;
+}
+#notearea textarea{
+    height:50%;
+    margin:5% 10%;
+}
+#save{
+    margin-left: 25%;
+    float:left;
+    background-color:#f4511e;
+}
+#cancel{
+    margin-right:25%;
+    float: right;
+    background-color: rgb(82, 79, 79);
+}
+
+/*Dark mode styling*/
+.darkmodebody{
+    background-color: black;
+    color:white
+}
+.darkmodenav{
+    background-color: rgb(82, 79, 79);
+}
+.darkmodenavp{
+    border-bottom: 2px solid white;
+}
